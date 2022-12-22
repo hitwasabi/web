@@ -1,0 +1,177 @@
+.menutren{
+    width: 100%;
+    height: 40px;
+    background-color: #e6a23b;
+    margin-top: -20px;
+}
+ul.menungang{
+    list-style: none;
+    padding-top: -20px;
+    padding-left: 30px;
+    margin-left: 15px;
+}
+ul.menungang li{
+    display: inline-block;
+}
+ul.menungang li i{
+    padding-left:10px ;
+}
+.menutren1{
+    width: 100%;
+    height: 115px;
+    background-color:white;
+}
+ul.menungang1{
+    display: flex;
+    list-style: none; 
+}
+ul.menungang1 li{
+    display: inline;
+}
+ul.menungang1 li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.box {
+  padding-top: 25px;
+  padding-left: 50px;
+}
+a.chu {
+    position: relative; font-family: segoe ui;text-decoration: none; font-size: 15px;}
+
+a.chu:after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:0%;
+    height:2px;
+    background-color:black;
+    transition: 0.4s;
+    
+}
+
+
+  * {box-sizing:border-box}
+  /*slide*/
+ .slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+ }
+ .mySlides {
+   display: none;
+ }
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+ .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+ .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+ .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .bo{
+    width: 300px;
+    height: 350px;
+    margin-left: 70px;
+    margin-top: 10px;
+    display:inline-block;
+    position: relative;
+}
+.bo .lop1{
+    width: 300px;
+    height: 350px;
+    top:0;
+    left: 0;
+    position: absolute;
+    transform: scale(1);
+}
+
+.bo .lop2{
+    width: 300px;
+    height: 350px;
+    top:0;
+    left: 0;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(1);
+}
+
+.bo .lop3{
+    width: 300px;
+    height: 350px;
+    top: 115px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+.canle {
+    margin-left: -10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: flex;
+    background: url(nen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+  background-color: #e6a23b;
+  margin-top: 50px;
+}
